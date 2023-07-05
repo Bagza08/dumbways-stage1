@@ -21,9 +21,16 @@ body{
     /* background-color: blue; */
     display: flex;
     align-items: center;
+    
 }
 
-.nav .logo img{
+.nav .logo a{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.nav .logo a img{
     width: 60px;
 }
 
@@ -185,3 +192,8 @@ td:hover{
 /* end */
 
 
+
+/* form */
+.input-data form select option{
+    font-family: myfont2;
+}
